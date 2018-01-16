@@ -1,0 +1,25 @@
+{
+  "name": "front-test",
+  "version": "1.0.0",
+  "description": "持续更新",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nieyafei/front-test.git"
+  },
+  "author": "nyf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nieyafei/front-test/issues"
+  },
+  "homepage": "https://github.com/nieyafei/front-test#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
