@@ -1,15 +1,17 @@
-const {Builder, By, Key, until} = require('selenium-webdriver');
+/* const {Builder, By, Key, until} = require('selenium-webdriver');
 
-let driver = new Builder().forBrowser('chrome').build();
+let driver = new Builder().forBrowser('firefox').build();
 
 driver.get('https://www.baidu.com/');
 driver.findElement(By.name('wd')).sendKeys('webdriver', Key.RETURN);
-driver.wait(until.titleIs('webdriver_百度搜索'), 2000);
+driver.wait(until.titleIs('webdriver_百度搜索'), 10000);// webdriver_百度搜索
 
-driver.quit();
+driver.quit(); */
 
 
-/* (async function example() {
+const {Builder, By, Key, until} = require('selenium-webdriver');
+
+(async function example() {
   let driver = await new Builder().forBrowser('chrome').build();
   try {
     await driver.get('https://www.baidu.com/');
@@ -18,4 +20,4 @@ driver.quit();
   } finally {
     await driver.quit();
   }
-})(); */
+})();
